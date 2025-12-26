@@ -20,13 +20,13 @@ variable "aws_region" {
 variable "ami" {
    type        = string
    description = "Amazon Linux 2023"
-   default     = "ami-03695d52f0d883f65"
+   default     = "ami-00ca570c1b6d79f36"
 }
 
 variable "instance_type" {
    type        = string
    description = "Instance type"
-   default     = "t2.micro"
+   default     = "m7i-flex.large"
 }
 
 variable "name_tag" {
